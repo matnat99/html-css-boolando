@@ -7,21 +7,23 @@
 
 /* GENERAL */
 .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1000px;
+    max-width: 980px;
     margin: 0 auto;
-    padding: 10px 0;
-    background-color: #FF6900;
-
-
 }
 
 /* HEADER */
 header {
     background-color: #FF6900;
     color: white;
+    position: sticky;
+}
+
+.header-nav.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    background-color: #FF6900;
 }
 
 .logo img{
@@ -39,5 +41,35 @@ header {
     text-decoration: none;
     color: inherit;
     font-size: 14px;
+}
+
+/* MAIN */
+.container-large.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 500px;
+    
+}
+
+.container-large div > img{
+    width: 320px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+div.img-container{
+    position: relative;
+}
+
+.heart{
+    position: absolute;
+    top: 2px;
+    right: 0px;
+    background-color: #FFFFFF;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
 }
 
