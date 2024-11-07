@@ -4,3 +4,40 @@
     margin: 0;
     padding: 0;
 }
+
+/* GENERAL */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px 0;
+    background-color: #FF6900;
+
+
+}
+
+/* HEADER */
+header {
+    background-color: #FF6900;
+    color: white;
+}
+
+.logo img{
+    width: 180px;
+}
+
+.nav-left ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.nav-left ul a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+}
+
