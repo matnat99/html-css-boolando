@@ -29,7 +29,9 @@ strong{
 header {
     background-color: #FF6900;
     color: white;
-    position: sticky;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
 }
 
 .header-nav.container{
@@ -80,7 +82,7 @@ main{
 }
 
 .container-large div > img{
-    max-width: 320px;
+    max-width: 100%;
     margin-top: 20px;
     margin-bottom: 10px;
     cursor: pointer;
@@ -111,6 +113,7 @@ div.img-container{
     height: 30px;
     text-align: center;
     line-height: 30px;
+    cursor: pointer;
 }
 
 .tag-container{
