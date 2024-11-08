@@ -46,7 +46,7 @@ header {
     width: 180px;
 }
 
-.nav-left ul {
+.nav-left ul{
     list-style: none;
     display: flex;
     justify-content: center;
@@ -59,9 +59,18 @@ header {
     font-size: 14px;
 }
 
-nav > i{
-    margin: 0 4px;
+.nav-icons ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
 }
+
+.nav-icons ul a{
+    text-decoration: none;
+    color: inherit;
+}
+
 
 
 /* MAIN */
@@ -150,15 +159,29 @@ div.img-container{
     padding: 20px 0;
  }
 
- .left > strong{
-    margin-bottom: 15px;
- }
+ .nav-foots ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
 
- .left > span{
-    margin-left: 5px;
- }
-
- .right div > i{
-    margin: 3px;
+.nav-foots ul > li{
     margin-top: 15px;
- }
+}
+
+.nav-footr ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.nav-footr ul a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-footr ul > li{
+    margin-top: 15px;
+}
