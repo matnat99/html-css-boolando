@@ -29,9 +29,9 @@ strong{
 header {
     background-color: #FF6900;
     color: white;
-    width: 100%;
-    position: fixed;
-    z-index: 1;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 .header-nav.container{
@@ -88,7 +88,6 @@ main{
     cursor: pointer;
 }
 
-
 div.img-container{
     position: relative;
 }
@@ -102,6 +101,10 @@ div.img-container{
 
 .img-container:hover .img-back{
     opacity: 1;
+}
+
+.heart:hover i{
+    color: red;
 }
 
 .heart{
